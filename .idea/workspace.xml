@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18c168dd-1316-4e1f-bcc3-48efd35a5a99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/SmashUltimate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/yahtzeeCover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -48,6 +50,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\blues\OneDrive\Documents\GitHub\Eubanksch81.github.io\images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,7 +71,9 @@
       <option name="presentableId" value="Default" />
       <updated>1728673663808</updated>
       <workItem from="1728673664849" duration="1207000" />
-      <workItem from="1728840045749" duration="5784000" />
+      <workItem from="1728840045749" duration="5974000" />
+      <workItem from="1729541352740" duration="7000" />
+      <workItem from="1732684635851" duration="1351000" />
     </task>
     <servers />
   </component>
