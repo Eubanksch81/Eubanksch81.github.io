@@ -33,9 +33,6 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
                 <a href="#education">Education</a>
             </li>
             <li>
@@ -43,6 +40,9 @@
             </li>
             <li>
                 <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -54,19 +54,12 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Charles Eubanks</h1>
-            <h2>Software Engineer</h2>
+            <h2>Software Engineer | Data Scientist</h2>
             <a href="Charles%20Eubanks%20Resume.pdf" download class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
     </div>
     <!-- End #lead -->
 
@@ -78,10 +71,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Aurora University Senior double-majoring in computer science & mathematics with programming knowledge in
-                        building full-stack applications while working with languages such as Java, JUnit 5, Python, Pytest, SQL, Firebase,
-                        C++, HTML/CSS, Javascript, and express.js; as well as demonstrated knowledge of data analysis with regression
-                        techniques and probability distributions that is seeking employment opportunities.
+                        I am a recent Aurora University graduate with a Bachelor of Science in Computer Science and Mathematics, focused on building full-stack software systems, backend services, and data-driven analytical tools. My work includes leading the development of a full-stack Dungeons & Dragons Performance Assistant that combines FastAPI, React, TypeScript, MongoDB, and multi-criteria recommendation logic, as well as validating its recommendations through statistical analysis using ANOVA and multiple linear regression. I am currently seeking opportunities in software engineering, backend or full-stack development, data analysis, or applied data science where I can contribute strong technical problem-solving, quantitative reasoning, and end-to-end project ownership.
                     </p>
                 </div>
             </div>
@@ -92,14 +82,15 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>Aurora University</h3>
-            <span class="education-date">June 2023 - May 2026</span>
-            <h4>Bachelors in Science</h4>
-            <h4>Majoring in Computer Science and Mathematics</h4>
+            <h3>Aurora University - 4.0 GPA</h3>
+            <span class="education-date">May 2026</span>
+            <h4>Bachelor of Science in Computer Science and Mathematics</h4>
             <p>
                 <ul>
-                    <li>4.0 GPA</li>
-                    <li>Member of the Kappa Mu Epsilon</li>
+                    <li>Member of the Kappa Mu Epsilon Honor Society</li>
+                    <li>Member of the Phi Theta Kappa Honor Society</li>
+                    <li>Member of the Alpha Beta Gamma Honor Society</li>
+                    <li>Member of the Honor Society of Leadership and Success</li>
                     <li>Member of the AU Computer Science Club</li>
                     <li>Treasurer of the AU On Point Debate Club</li>
                 </ul>
@@ -108,24 +99,11 @@
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>Waubonsee Community College</h3>
-            <span class="education-date">August 2021 - May 2023</span>
-            <h4>Associates in Science</h4>
-            <h4>Major in Computer Science</h4>
+            <h3>Waubonsee Community College - 4.0 GPA</h3>
+            <span class="education-date">May 2023</span>
+            <h4>Associate of Science in Computer Science</h4>
             <ul>
-                <li>
-                    4.0 GPA
-                </li>
                 <li>Presidential Honors List - Waubonsee Community College</li>
-                <li>
-                    Member of the Phi Theta Kappa Honor Society
-                </li>
-                <li>
-                    Member of the Alpha Beta Gamma Honor Society
-                </li>
-                <li>
-                    Member of the National Honor Society of Leadership and Success
-                </li>
             </ul>
         </div>
         <!-- End .education-block -->
@@ -139,15 +117,26 @@
                 <!--Project Start-->
                 <div class="project shadow-large">
                     <div class="project-image">
+                        <img class="projectimgtag" style="background-color: black" src="images/d20.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>DND Performance Assistant - CSC Capstone</h3>
+                        <p style="font-size: 12px">Dungeons & Dragons Performance Assistant is a full-stack combat simulation and recommendation platform developed for a Software Engineering Capstone project. As project lead, I coordinated a 3-person team, assigned feature ownership, tracked progress against faculty requirements, and reviewed contributions for production readiness. I architected core backend workflows using Python and FastAPI, integrated them with a React/TypeScript frontend, and managed persistent encounter-state data through MongoDB Atlas. The system uses Pareto front filtering and TOPSIS scoring to rank combat actions across success probability, expected damage, action impact, positioning, and broader encounter context. Analysis of 160+ observed outcomes found that top-ranked recommendations achieved 44.7% higher mean realized utility than lower-ranked alternatives. I also supported automated testing, CI/CD, deployment automation, and release verification.</p>
+                        <a href="https://dndpa.com">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
                         <img class="projectimgtag" src="images/glassdie.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>DND Probability Generator</h3>
+                        <h3>DND Real-time Analytics Generator - MTH Capstone</h3>
                         <p>
-                             Created a fully scalable back-end application in Python to generate dynamic values describing the
-                            probability of success and expected damage for each possible action that
-                            a user-built character could perform, from any possible encounter.
+                             Developed a Python-based D&D combat analytics engine that models action outcomes from encounter, player, and enemy parameters, calculating probability of success, expected damage, and action-impact metrics for real-time decision support.
                         </p>
                         <a href="https://github.com/Eubanksch81/DND_Prob_Generator">View Project</a>
                     </div>
@@ -176,10 +165,9 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>LLM Data Analysis</h3>
+                        <h3>NHL Shot Count Prediction Model</h3>
                         <p>
-                            Used a linear regression LLM to create predictions based on NHL
-                            statistics
+                            Partnered with one teammate to compile and refine 14 years of NHL data in Python, applying machine-learning regression models with scikit-learn to forecast team shot counts with 90% accuracy.
                         </p>
                         <a href="https://colab.research.google.com/drive/1bVU95o1Q8LQ9b-R2xGb1OVcUomOpPb7b?usp=sharing">View Project</a>
                     </div>
@@ -205,22 +193,6 @@
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img class="projectimgtag" src="images/yahtzeeCover.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Yahtzee!</h3>
-                        <p>
-                            Created a fully playable Yahtzee game online via browser. Used JSON to store game data between sessions for continuous gameplay.
-                        </p>
-                        <a href="http://45.55.136.114/~ceubanks03/HW5-1126/YahtzeeMain.html">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
                         <img class="projectimgtag" src="images/battleshipcycles-logo-ftr.png" />
                     </div>
                     <!-- End .project-image -->
@@ -237,33 +209,15 @@
                 <!-- End .project -->
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img class="projectimgtag" src="images/LETSGOOO.jpg" />
+                        <img class="projectimgtag" src="images/yahtzeeCover.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Weather Reporting Station</h3>
+                        <h3>Yahtzee!</h3>
                         <p>
-                            Used C in raspberry Pi to output temperature sensors from a
-                            breadboard
+                            Created a fully playable Yahtzee game online via browser. Used JSON to store game data between sessions for continuous gameplay.
                         </p>
-                        <a href="https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img class="projectimgtag" src="images/Blog-Image13.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>SMP Feed Management</h3>
-                        <p>
-                            Use the Strategy Pattern, Observer Pattern, and Factory Pattern to simulate a system in which
-                            a user can subscribe to multiple Social Media Platforms (SMPs) that
-                            potentially update with new feed information from a file.
-                        </p>
-                        <a href="https://github.com/Eubanksch81/CSC3250/tree/main/CSC3250Code/GroupHomeworkProjectCSC3250">View Project</a>
+                        <a href="http://45.55.136.114/~ceubanks03/HW5-1126/YahtzeeMain.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -274,33 +228,47 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Pytest</li>
-            <li>Java</li>
-            <li>C++</li>
-            <li>SQL</li>
-            <li>Excel</li>
-            <li>JUnit</li>
-            <li>Mockito</li>
-            <li>Firebase</li>
-            <li>HTML/CSS</li>
-            <li>ExpressJS</li>
-            <li>Probability and Statistics</li>
-            <li>Regression</li>
-            <li>Calculus</li>
-            <li>Mathematical Proofing</li>
-            <li>Linear Algebra</li>
-        </ul>
+<h2 class="heading">Skills</h2>
+<ul>
+    <li>Python</li>
+    <li>TypeScript</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>SQL</li>
+    <li>C++</li>
+    <li>HTML/CSS</li>
+    <li>React</li>
+    <li>FastAPI</li>
+    <li>PyTorch</li>
+    <li>scikit-learn</li>
+    <li>pytest</li>
+    <li>JUnit 5</li>
+    <li>Selenium</li>
+    <li>pandas</li>
+    <li>NumPy</li>
+    <li>Next.js</li>
+    <li>Bootstrap</li>
+    <li>Git/GitHub</li>
+    <li>Docker</li>
+    <li>MongoDB Atlas</li>
+    <li>phpMyAdmin</li>
+    <li>MLR</li>
+    <li>ANOVA</li>
+    <li>Excel Analysis ToolPak</li>
+    <li>Solver Optimization</li>
+    <li>Time Series</li>
+    <li>Neural Networks</li>
+    <li>Probability Distributions</li>
+    <li>TOPSIS</li>
+    <li>Pareto Optimization</li>
+</ul>
     </div>
     <!-- End #skills -->
 
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="August 2024 – Current">
+            <div data-date="August 2024 – May 2026">
                 <h3>Aurora University</h3>
                 <h4>ASC Peer Tutor</h4>
                 <p>
